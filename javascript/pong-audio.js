@@ -56,10 +56,10 @@ export var ambientSound = new soundFile("silence.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 
-export var adventureMusic = new soundFile("silence.mp3");
+export var adventureMusic = new soundFile("rain.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 
-export var villageMusic = new soundFile("rain.mp3");
+export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
