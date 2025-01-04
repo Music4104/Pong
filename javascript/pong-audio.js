@@ -46,7 +46,7 @@ export var soundArray = []; //list of sounds loaded
 export var wallSound = new soundFile("bird.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("wind.mp3");
+export var paddleSound = new soundFile("chime.mp3");
 soundArray.push(paddleSound);
 
 export var scoreSound = new soundFile("thunder.mp3");
